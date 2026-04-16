@@ -1,27 +1,15 @@
 {
-  "name": "facebook-bot-dashboard",
+  "name": "fb-bot",
   "version": "1.0.0",
-  "description": "Advanced Facebook Bot with Dashboard, Target System & Auto Add",
+  "description": "Messenger Bot",
   "main": "clean_bot_full.js",
   "scripts": {
-    "start": "node clean_bot_full.js",
-    "dev": "nodemon clean_bot_full.js"
+    "start": "node clean_bot_full.js"
   },
-  "keywords": [
-    "facebook-bot",
-    "messenger-bot",
-    "ws3-fca",
-    "automation"
-  ],
-  "author": "MR PRINCE",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.18.2",
     "body-parser": "^1.20.2",
-    "socket.io": "^4.7.5",
+    "socket.io": "^4.7.2",
     "ws3-fca": "*"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
   }
 }
