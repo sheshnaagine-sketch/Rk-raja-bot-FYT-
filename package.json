@@ -1,7 +1,6 @@
 {
   "name": "fb-bot",
   "version": "1.0.0",
-  "description": "Messenger Bot",
   "main": "clean_bot_full.js",
   "scripts": {
     "start": "node clean_bot_full.js"
@@ -10,6 +9,7 @@
     "express": "^4.18.2",
     "body-parser": "^1.20.2",
     "socket.io": "^4.7.2",
-    "ws3-fca": "*"
+    "axios": "^1.6.0",
+    "fca-unofficial": "^1.3.10"
   }
 }
